@@ -1,0 +1,38 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto:300");
+html, html a {
+	-webkit-font-smoothing: antialiased; 
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004); 
+	text-decoration: none;
+}
+body {
+	background-image: url("bg.png"); 
+    background-repeat: repeat;
+    position: relative;
+    height: 100vh;
+    margin: 0;
+}
+html {
+color: grey;
+}
+#main {
+	width: 50%; 
+	margin: auto; 
+	padding-top: 50%;
+    position: absolute;
+    padding: 20px;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+	text-align: center; 
+}
+h1{font-family: 'Roboto'; font-size: 300%; font-weight: normal; margin: 0px 0px 0px 0px;}
+p{font-family: 'Roboto'; font-size: 130%; margin: 0px 0px 0px 0px; padding-top: 20px;}
+a{
+	color: #24a0ed; 
+	border-bottom: 1px solid #24a0ed;     
+	-moz-transition: color 200ms linear, border-color 200ms linear;
+    -webkit-transition: color 200ms linear, border-color 200ms linear;
+    transition: color 200ms linear, border-color 200ms linear;
+}
+a:hover {color: #F48FB1; border-color: #F48FB1;}
