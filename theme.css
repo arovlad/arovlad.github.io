@@ -83,9 +83,10 @@ td.bloc {
 table {
     border: 1px solid #AAAAAA !important;
     border-collapse: collapse;
-    font-family: Tahoma, sans-serif;
-    font-size: 13px;
+	font-family: 'Roboto';
+    font-size: 16px;
     color: #1B1E1F;
+	padding-top: 5%;
     /*width: 400px*/
 }
 
