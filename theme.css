@@ -1,11 +1,11 @@
 @import url("http://fonts.googleapis.com/css?family=Roboto:300");
 html, html a {
-	-webkit-font-smoothing: antialiased; 
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.004); 
+	-webkit-font-smoothing: antialiased;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 	text-decoration: none;
 }
 body {
-	background-image: url("bg.jpg"); 
+	background-image: url("bg.jpg");
     background-repeat: repeat;
     position: relative;
     height: 100vh;
@@ -15,8 +15,8 @@ html {
 color: grey;
 }
 #main {
-	width: 50%; 
-	margin: auto; 
+	width: 50%;
+	margin: auto;
 	padding-top: 50%;
     position: absolute;
     padding: 20px;
@@ -24,13 +24,13 @@ color: grey;
     top: 50%;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-	text-align: center; 
+	text-align: center;
 }
 h1{font-family: 'Roboto'; font-size: 375%; font-weight: normal; margin: 0px 0px 0px 0px;}
 p{font-family: 'Roboto'; font-size: 163%; margin: 0px 0px 0px 0px; padding-top: 20px;}
 a{
-	color: #24a0ed; 
-	border-bottom: 1px solid #24a0ed;     
+	color: #24a0ed;
+	border-bottom: 1px solid #24a0ed;
 	-moz-transition: color 200ms linear, border-color 200ms linear;
     -webkit-transition: color 200ms linear, border-color 200ms linear;
     transition: color 200ms linear, border-color 200ms linear;
@@ -102,4 +102,5 @@ table tr td, table tr th {
     border: 1px solid #AAAAAA !important;
     vertical-align: middle;
     padding: 2px 4px;
+    white-space: nowrap;
 }
